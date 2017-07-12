@@ -165,7 +165,7 @@ examples: `origin/master`, `HEAD~2`, `master@{3}`, `@{-1}`, `HEAD^`
 
 `git log --oneline --left-right --merge -p` &nbsp;&nbsp;&nbsp;&nbsp; show logs and diffs that contributed to conflict  
 `git diff` &nbsp;&nbsp;&nbsp;&nbsp; show merge conflicts  
-`git mergetool` &nbsp;&nbsp;&nbsp;&nbsp; vimdiff `:diffget RE` (remote), `BA` (base), `LO` (local)  
+`git mergetool` &nbsp;&nbsp;&nbsp;&nbsp; vimdiff `:diffget RE` (remote), `BA` (base), `LO` (local). ]c next [c  previous conflict  
 
 #### Advanved Merges
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging  
