@@ -35,6 +35,7 @@ examples: `origin/master`, `HEAD~2`, `master@{3}`, `@{-1}`, `HEAD^`
 `git log -L :<funcName>:<file>` &nbsp;&nbsp;&nbsp;&nbsp; show changes for function, class, object  
 
 `git log --grep='string'` &nbsp;&nbsp;&nbsp;&nbsp; search log messages  
+`git log --author='string'` &nbsp;&nbsp;&nbsp;&nbsp; search author  
 
 `git log --follow <file>` &nbsp;&nbsp;&nbsp;&nbsp; log history of file (`--follow` = beyond renaming)  
 `git log --patch <file>` &nbsp;&nbsp;&nbsp;&nbsp; diff history of file  
